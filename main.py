@@ -67,7 +67,7 @@ def main():
         choice_input = input("\nEnter the song # to play (or 'Q' to quit): ")
 
         if choice_input.upper() == "Q":
-            print("Soyanora Nigga!")
+            print("Bye now!")
             break
         else:
             if not choice_input.isdigit():
